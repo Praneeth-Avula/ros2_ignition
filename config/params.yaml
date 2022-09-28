@@ -1,0 +1,5 @@
+reading_laser:
+  ros__parameters:
+    controller_name: "ros2_control"
+    wait_sec_between_publish: 5
+    goal_names: ['a','b']

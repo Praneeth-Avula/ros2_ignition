@@ -1,0 +1,15 @@
+/reading_laser:
+  ros__parameters:
+    controller_name: "ros2_control"
+    lx: 0.5
+    az: 0.5
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    use_sim_time: false
+    bool: true
+    time: 5
