@@ -53,7 +53,15 @@ Direct change of parameters can be made using .yaml from now on
 
 10.   		ros2 launch dolly_ignition dolly.launch.py
 
-11.
+11. Push the repository to Github by Creating a personal access token:
+		
+		Create a repository in Github
+		git init (in the package)
+		git pull .
+		git commit -m "message"
+		git remode add origin "http link of repository"
+		git push origin master
+		
  
 
                 
